@@ -42,7 +42,6 @@ class TestImputation(unittest.TestCase):
         irregular_series = pd.Series([1, 2, 3], index=irregular_index)
         self.assertRaises(ValueError, subsequence_imputation, irregular_series)
 
-
     def test_subsequence_imputation_multiple_sources(self):
         complete_list = [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0,
                          1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 19.0, 9.0,
