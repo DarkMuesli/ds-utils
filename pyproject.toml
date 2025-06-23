@@ -1,0 +1,16 @@
+[project]
+name = "ds-utils"
+version = "0.1.0"
+description = "Reusable data science utilities"
+authors = [{name = "Matthias Groß"}]
+dependencies = [
+    "numpy",
+    "pandas"
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
