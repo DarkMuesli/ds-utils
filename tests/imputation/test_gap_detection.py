@@ -2,7 +2,7 @@ import unittest
 
 import pandas as pd
 
-from imputation import identify_missing_data_gaps_with_count
+from ds_utils_darkmuesli.imputation import identify_missing_data_gaps_with_count
 
 
 class TestGapDetection(unittest.TestCase):

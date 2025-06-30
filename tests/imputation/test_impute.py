@@ -3,7 +3,7 @@ import unittest
 import numpy as np
 import pandas as pd
 
-from imputation import fill_missing_with_mean, subsequence_imputation
+from ds_utils_darkmuesli.imputation import fill_missing_with_mean, subsequence_imputation
 
 
 class TestImputation(unittest.TestCase):

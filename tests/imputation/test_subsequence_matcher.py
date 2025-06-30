@@ -2,7 +2,7 @@ import unittest
 
 import pandas as pd
 
-from imputation import vectorized_subsequence_distances
+from ds_utils_darkmuesli.imputation import vectorized_subsequence_distances
 
 
 class TestSubsequenceMatcher(unittest.TestCase):

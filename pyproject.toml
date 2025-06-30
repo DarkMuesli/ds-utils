@@ -1,5 +1,5 @@
 [project]
-name = "ds-utils"
+name = "ds-utils-darkmuesli"
 version = "0.1.0"
 description = "Reusable data science utilities"
 authors = [{name = "Matthias Groß"}]
